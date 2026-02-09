@@ -1,0 +1,73 @@
+{
+  "document_id": "MT-0377-007328",
+  "part": "B",
+  "inspection_order": "771267",
+  "start_date": "20/07/2024 11:48",
+  "end_date": "20/07/2024 11:54",
+  "establishment": {
+    "name": "TA LA ESTRELLA SA",
+    "cuit": "30546247623",
+    "address": "SAN JUAN 1473 N° 1473",
+    "locality": "MAR DEL PLATA",
+    "district": "GENERAL PUEYRREDON",
+    "activity": "Servicio de transporte automotor interurbano de pasajeros (1602250)",
+    "representative": {
+      "name": "GUNTHER, DANIEL",
+      "document": "DNI 18263965",
+      "role": "Empleado"
+    }
+  },
+  "transport": {
+    "company": "TA LA ESTRELLA SA",
+    "license_plate": "OYS 689",
+    "route": "MAR DEL PLATA RETIRO",
+    "unit_number": "1090",
+    "vehicle_plate": "AAA-000"
+  },
+  "workers": {
+    "total": 2
+  },
+  "verification": [
+    {
+      "point": 1,
+      "description": "Presenta libretas de choferes conforme ART. 1 Dto 1335/73 (modif por Dto 1038/97) y res. MTSS N°17/98 rubricadas por INDUSTRIA Y COMERCIO.",
+      "affected_workers": 2
+    },
+    {
+      "point": 2,
+      "description": "Cumple con el descanso entre jornadas de 12 (doce) horas conforme Art.197 Ley 20744.",
+      "affected_workers": 2
+    },
+    {
+      "point": 3,
+      "description": "Cumple con la jornada legal de trabajo, conforme Art 1 Ley 11544 y Dto Reg 16115/33.",
+      "affected_workers": 2
+    },
+    {
+      "point": 4,
+      "description": "Cumple con el goce de franco conforme Art 9 inc g del CCT 460/73.",
+      "affected_workers": 2
+    }
+  ],
+  "infringement": [
+    {
+      "point": 1,
+      "description": "No presenta libretas de choferes conforme ART. 1 Dto 1335/73 (modif por Dto 1038/97) y res. MTSS N°17/98 rubricadas por DE LA LIBRETA DEL CHOFER AGUERRE CLAUDIO 21964193 SURGE QUE EL DIA 4/5/2024 SE ENCUENTRA BORRADO SIN SALVAR COMO CORRESPONDE Y EL DIA 8/7/2024 DE LA LIBRETA DEL CHOFER GUNTHER DANIEL 18263965 SE ENCUENTRA BORRADO SIN SALVAR COMO CORRESPONDE.",
+      "affected_workers": 2
+    }
+  ],
+  "personnel": [
+    {
+      "name": "AGUERRE, CLAUDIO"
+    },
+    {
+      "name": "GUNTHER, DANIEL"
+    }
+  ],
+  "inspectors": [
+    "NIETO, LUIS RAFAEL"
+  ],
+  "acta_number": "ACTA-2024-25506979-GDEBA-DILMTGP",
+  "expediente": "EX-2024-25446003- -GDEBA-DILMTGP",
+  "pages": 2
+}

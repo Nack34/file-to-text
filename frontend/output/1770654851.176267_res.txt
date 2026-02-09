@@ -1,0 +1,53 @@
+{
+  "ministerio": "MINISTERIO DE TRABAJO, GOBIERNO DE LA PROVINCIA DE BUENOS AIRES",
+  "documento": {
+    "id": "MT-0377-007328 PARTE B",
+    "orden_inspeccion": "N° 771267",
+    "fecha_inicio": "20/07/2024 11:48",
+    "fecha_finalizada": "20/07/2024 11:54"
+  },
+  "establecimiento": {
+    "razon_social": "TA LA ESTRELLA SA",
+    "cuit": "30546247623",
+    "domicilio": "SAN JUAN 1473 N° 1473",
+    "localidad": "MAR DEL PLATA",
+    "partido": "GENERAL PUEYRREDON",
+    "actividad": "1602250) Servicio de transporte automotor interurbano de pasajeros"
+  },
+  "representado_por": {
+    "nombre": "GUNTHER, DANIEL",
+    "documento": "DNI 18263965",
+    "caracter": "Empleado"
+  },
+  "transporte": {
+    "empresa": "TA LA ESTRELLA SA",
+    "patente": "OYS 689",
+    "nro_unidad": "1090",
+    "itinerario": "MAR DEL PLATA RETIRO",
+    "patente_vehiculo": "AAA-000"
+  },
+  "trabajadores": {
+    "total": 2
+  },
+  "detalle": {
+    "verificacion": [
+      "Presenta libretas de choferes conforme ART. 1 Dto 1335/73 (modif por Dto 1038/97) y res. MTSS N°17/98",
+      "Cumple con el descanso entre jornadas de 12 (doce) horas conforme Art.197 Ley 20744",
+      "Cumple con la jornada legal de trabajo, conforme Art 1 Ley 11544 y Dto Reg 16115/33",
+      "Cumple con el goce de franco conforme Art 9 inc g del CCT 460/73"
+    ],
+    "infraccion": [
+      "No presenta libretas de choferes conforme ART. 1 Dto 1335/73 (modif por Dto 1038/97) y res. MTSS N°17/98"
+    ]
+  },
+  "expediente": "EX-2024-25446003- -GDEBA-DILMTGP",
+  "hoja_adicional": {
+    "numero": "ACTA-2024-25506979-GDEBA-DILMTGP",
+    "referencia": "Acta Nro 0377-007328 INFRACCION",
+    "cantidad_paginas": 2,
+    "fecha_firma": "Martes 23 de Julio de 2024",
+    "firmado_por": "Marcela Alejandra Vasquez",
+    "cargo": "Personal Administrativo",
+    "unidad": "Dirección de Inspección Laboral"
+  }
+}

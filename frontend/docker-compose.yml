@@ -1,0 +1,15 @@
+services:
+  pdf_to_text_frontend:
+    build: .
+    container_name: pdf_to_text_frontend
+    ports:
+      - "1300:1300"
+    environment:
+      - BACKEND_URL=http://mcp_client:8000
+    volumes:
+      - ./:/app  # SOLO EN DESARROLLO
+    networks:
+      - red_Productiva1
+networks:
+  red_Productiva1:
+    external: true

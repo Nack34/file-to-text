@@ -1,0 +1,79 @@
+services:
+  mcp_busquedas_web:
+    build: .
+    container_name: mcp_busquedas_web
+    command: ["uv", "run", "mcp_servers/mcp_server_busquedas_web.py", "--server_type=sse"]
+    networks:
+      - mcp_network
+    ports:
+      - "21000:21000"
+
+  mcp_db:
+    build: .
+    container_name: mcp_db
+    command: ["uv", "run", "mcp_servers/mcp_server_db.py", "--server_type=sse"]
+    networks:
+      - mcp_network
+    ports:
+      - "21005:21000"
+
+  mcp_poema:
+    build: .
+    container_name: mcp_poema
+    command: ["uv", "run", "mcp_servers/mcp_server_poema.py", "--server_type=sse"]
+    networks:
+      - mcp_network
+    ports:
+      - "21006:21000"
+
+  filesystem-mcp:
+    image: node:20
+    container_name: filesystem-mcp
+    working_dir: /app
+    volumes:
+    - /home/n_ricciardi/nicolas/mcp_prueba/filesystem-mcp-test:/filesystem
+    command:
+      [
+        "npx",
+        "-y",
+        "supergateway",
+        "--stdio",
+        "npx -y @modelcontextprotocol/server-filesystem /filesystem",
+        "--port",
+        "21000",
+        "--ssePath",
+        "/sse"
+      ]
+    networks:
+      - mcp_network
+    ports:
+      - "21002:21000"
+
+  mcp_client:
+    build: .
+    container_name: mcp_client
+    command: ["python", "-m", "uvicorn", "ollama_client:app", "--host", "0.0.0.0", "--port", "8000"]
+    depends_on:
+      - mcp_busquedas_web
+      - mcp_db
+      - mcp_poema
+      - filesystem-mcp
+    environment:
+      - MCP_SERVERS="http://mcp_busquedas_web:21000/sse,http://mcp_db:21000/sse,http://mcp_poema:21000/sse,http://filesystem-mcp:21000/sse"
+      - OLLAMA_URL=http://192.168.30.50:31134
+      - MODEL=qwen3-vl:30b
+      - KEEP_CONTEXT=False
+    volumes:
+      - ./uploads:/app/uploads
+    ports:
+      - "21003:8000"
+    networks:
+      - mcp_network
+      - red_Productiva1
+      
+networks:
+  red_Productiva1:
+    external: true
+  mcp_network:
+    name: mcp_network
+    driver: bridge

@@ -1,0 +1,13 @@
+{
+  "content": [
+    {
+      "type": "prayer",
+      "text": "troubled by my sin. Many have become my enemies without cause. Those who hate me without reason are numerous. Those who repay my good with evil lodge accusations against me, though I seek only to do what is good. Lord, do not forsake me; do not be far from me, my God. Come quickly to help me, my Lord and my Savior."
+    },
+    {
+      "type": "psalm",
+      "number": 40,
+      "text": "I waited patiently for the Lord; He turned to me and heard my cry. He lifted me out of the slimy pit, out of the mud and mire; He set my feet on a rock and gave me a firm place to stand. He put a new song in my mouth, a hymn of praise to our God. Many will see and fear the Lord and put their trust in Him. Blessed is the one who trusts in the Lord, who does not look to the proud, and to those who turn aside to false gods. You, Lord my God, are the wondrous you have done; things you planned for us. None can compare with you; were I to speak and tell of your deeds they would be too many to declare. Sacrifice and offering you did not desire – but my ears you have made – burnt offerings and sin offerings you did not require. Then I said, \"Here I am, I have come – as written about me in the scroll. I desire to do your will, my God; your law is within my heart.\" I proclaim saving acts in the great assembly; I do not seal"
+    }
+  ]
+}

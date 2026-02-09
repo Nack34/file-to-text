@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}Aplicación{% endblock %}</title>
+
+  <!-- CSS global de la app (mismo origen, sin esquema/host) -->
+  <link rel="stylesheet" href="/pdf_to_text/static/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="https://dpid.gba.gob.ar">
+        <img src="/pdf_to_text/static/images/logo-gba.svg"
+             alt="Gobierno de la Provincia de Buenos Aires" />
+      </a>
+    </div>
+    <div class="header-links">
+      {% block header_links %}{% endblock %}
+    </div>
+  </header>
+
+  <main>
+    <div class="main-container">
+      {% block main %}{% endblock %}
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-images">
+      <img src="/pdf_to_text/static/images/dpid-marca.svg"
+           alt="Dirección provincial de innovación digital"
+           class="footer-image-1" />
+      <img src="/pdf_to_text/static/images/mdg-marca.svg"
+           alt="Ministerio de gobierno"
+           class="footer-image-2" />
+      <img src="/pdf_to_text/static/images/sgd-marca.svg"
+           alt="Subsecretaría de gobierno digital"
+           class="footer-image-3" />
+      <img src="/pdf_to_text/static/images/logo-gba.svg"
+           alt="Gobierno de la Provincia de Buenos Aires"
+           class="footer-image-4" />
+    </div>
+  </footer>
+
+  <!-- JS global de la app (mismo origen) -->
+  <script src="pdf_to_text/scripts/script.js"></script>
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>
