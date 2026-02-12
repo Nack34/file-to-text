@@ -1,0 +1,52 @@
+{
+  "ministry": "GOBIERNO DE LA PROVINCIA DE BUENOS AIRES",
+  "act_number": "ACTA-2024-25506979-GDEBA-DILMTGP",
+  "expediente": "EX-2024-25446003- -GDEBA-DILMTGP",
+  "inspection_order": "771267",
+  "establishment": {
+    "social_name": "TA LA ESTRELLA SA",
+    "cuit": "30546247623",
+    "address": "SAN JUAN 1473 N° 1473, MAR DEL PLATA, GENERAL PUEYRREDON",
+    "activity": {
+      "code": "1602250",
+      "description": "Servicio de transporte automotor interurbano de pasajeros"
+    },
+    "representative": {
+      "name": "GUNTHER, DANIEL",
+      "role": "Empleado",
+      "id": "18263965"
+    }
+  },
+  "transportation": {
+    "company": "TA LA ESTRELLA SA",
+    "patente": "OYS 689",
+    "vehicle_number": "1090",
+    "itinerary": "MAR DEL PLATA RETIRO"
+  },
+  "workers": [
+    {
+      "name": "AGUERRE, CLAUDIO",
+      "identification": "21964193"
+    },
+    {
+      "name": "GUNTHER, DANIEL",
+      "identification": "18263965"
+    }
+  ],
+  "violations": [
+    {
+      "driver": "AGUERRE, CLAUDIO",
+      "date": "2024-05-04",
+      "description": "Libreta borrada sin salvar como corresponde"
+    },
+    {
+      "driver": "GUNTHER, DANIEL",
+      "date": "2024-07-08",
+      "description": "Libreta borrada sin salvar como corresponde"
+    }
+  ],
+  "dates": {
+    "act_start": "2024-07-20T11:48:00",
+    "act_end": "2024-07-20T11:54:00"
+  }
+}

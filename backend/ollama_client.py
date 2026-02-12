@@ -196,8 +196,10 @@ async def api_agent(req: MessageRequest, file_name: Optional[str] = None):
     user_query = req.message.strip()
     if not user_query:
         raise HTTPException(status_code=400, detail="El campo 'message' no puede estar vacío.")
-
+    
+    inicio = time.time()
     if (file_name!=None):
+
         file_path = validate_file(file_name)
 
         extracted_text = pdf_to_text(file_path)
@@ -212,12 +214,15 @@ async def api_agent(req: MessageRequest, file_name: Optional[str] = None):
             PREGUNTA:
             {user_query}
             """
+        print(f"Tiempo transcurrido en la extraccion del texto del pdf: {inicio-time.time():.4f} segundos")
 
     try:
         if (not KEEP_CONTEXT):
             _agent_ctx = Context(_agent)
         response = await handle_user_message(user_query, _agent, _agent_ctx, verbose=True)
+        print(f"Tiempo total transcurrido: {inicio-time.time():.4f} segundos")
         return {"response": response}
+    
     except Exception as e:
         print("[error] Al procesar la petición:", e)
         raise HTTPException(status_code=500, detail=str(e))
