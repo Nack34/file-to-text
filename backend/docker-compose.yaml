@@ -59,10 +59,11 @@ services:
       - mcp_poema
       - filesystem-mcp
     environment:
-      - MCP_SERVERS="http://mcp_busquedas_web:21000/sse,http://mcp_db:21000/sse,http://mcp_poema:21000/sse,http://filesystem-mcp:21000/sse"
-      - OLLAMA_URL=http://192.168.30.50:31134
-      - MODEL=qwen3-vl:30b
-      - KEEP_CONTEXT=False
+      MCP_SERVERS: "http://mcp_busquedas_web:21000/sse,http://mcp_db:21000/sse,http://mcp_poema:21000/sse,http://filesystem-mcp:21000/sse"
+      OLLAMA_URL: "https://maas.nubax.ai/v1"
+      API_KEY: "eyJhbGciOiJIUzI1NiIsImlzcyI6Ik9WZm10RWhxNXBuYkhzVmpPdlczVW9OWTlMaUR3bm9YIiwidHlwIjoiSldUIn0.e30.Pu5tugjB090VkJbJVpe7hfH7hYdlHhQIB3ZAnoWLbsA"
+      MODEL: "meta-llama/Llama-3.2-11B-Vision-Instruct"
+      KEEP_CONTEXT: "False"
     volumes:
       - ./uploads:/app/uploads
     ports:

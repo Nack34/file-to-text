@@ -1,0 +1,80 @@
+{
+  "inspection_order": {
+    "order_number": "771267",
+    "start_date": "20/07/2024 11:48",
+    "end_date": "20/07/2024 11:54",
+    "act_number": "MT-0377-007328 PARTE B",
+    "expendiente": "EX-2024-25446003-GDEBA-DILMTGP"
+  },
+  "establishment": {
+    "name": "TA LA ESTRELLA SA",
+    "cuit": "30546247623",
+    "address": "SAN JUAN 1473 N° 1473, MAR DEL PLATA, partido de GENERAL PUEYRREDON",
+    "activity": "(I602250) Servicio de transporte automotor interurbano de pasajeros",
+    "representative": {
+      "name": "GUNTHER, DANIEL",
+      "role": "Empleado",
+      "document": "DNI 18263965"
+    }
+  },
+  "transport": {
+    "company": "TA LA ESTRELLA SA",
+    "patent": "OYS 689",
+    "unit_number": "1090",
+    "route": "MAR DEL PLATA RETIRO",
+    "vehicle_plate": "AAA-000"
+  },
+  "workers": {
+    "total": 2,
+    "details": [
+      {
+        "name": "AGUIRRE, CLAUDIO",
+        "id": "21964193"
+      },
+      {
+        "name": "GUNTHER, DANIEL",
+        "id": "18263965"
+      }
+    ]
+  },
+  "verification": [
+    {
+      "item": "1",
+      "description": "Presenta libretas de choferes conforme ART. 1 Dto 1335/73 (modif por Dto 1038/97) y res. MTSS N°17/98 rubricadas por INDUSTRIA Y COMERCIO",
+      "affected_workers": 2
+    },
+    {
+      "item": "2",
+      "description": "Cumple con el descanso entre jornadas de 12 (doce) horas conforme Art.197 Ley 20744",
+      "affected_workers": 2
+    },
+    {
+      "item": "3",
+      "description": "Cumple con la jornada legal de trabajo, conforme Art 1 Ley 11544 y Dto Reg 16115/33",
+      "affected_workers": 2
+    },
+    {
+      "item": "4",
+      "description": "Cumple con el goce de franco conforme Art 9 inc g del CCT 460/73",
+      "affected_workers": 2
+    }
+  ],
+  "infringement": {
+    "details": [
+      "No presenta libretas de choferes conforme ART. 1 Dto 1335/73 (modif por Dto 1038/97) y res. MTSS N°17/98. El DIA 4/5/2024 en la libreta de AGUIRRE CLAUDIO (21964193) y el DIA 8/7/2024 en la libreta de GUNTHER DANIEL (18263965) se encuentran borrados sin salvar como corresponde.",
+      "Personal Afectado: 2"
+    ]
+  },
+  "inspectors": [
+    {
+      "name": "NIETO, LUIS RAFAEL",
+      "act_number": "ACTA-2024-25506979-GDEBA-DILMTGP"
+    }
+  ],
+  "signature": {
+    "signatory": "MARCELA ALEJANDRA VASQUEZ",
+    "role": "Personal Administrativo, Dirección de Inspección Laboral",
+    "ministry": "Ministerio de Trabajo",
+    "date": "Martes 23 de Julio de 2024"
+  }
+}

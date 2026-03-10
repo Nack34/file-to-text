@@ -17,3 +17,6 @@ pdf2image
 pillow
 requests
 ollama
+llama-index-llms-openai
+llama-index-llms-openai-like
+openai

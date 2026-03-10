@@ -1,0 +1,49 @@
+```
+{
+  "Orden de Inspección": {
+    "Número": "771267",
+    "Fecha de inicio del acta": "20/07/2024 11:48",
+    "Fecha de finalización": "20/07/2024 11:54"
+  },
+  "Establecimiento": {
+    "Razón social": "TA LA ESTRELLA SA",
+    "CUIT": "30546247623",
+    "Domicilio": "SAN JUAN 1473 N° 1473",
+    "Localidad": "MAR DEL PLATA partido de GENERAL PUEYREDON",
+    "Actividad": "(1602250) Servicio de transporte automotor interurbano de pasajeros",
+    "Representado por": "GUNTHE, DANIEL",
+    "En carácter de": "Empleado"
+  },
+  "Transporte": {
+    "Empresa": "PATENTE OYS 689 TA LA ESTRELLA SA",
+    "Nro de unidad": "1090",
+    "Itinerario": "MAR DEL PLATA RETIRO",
+    "Patente": "AAA-000"
+  },
+  "Trabajadores": {
+    "Total": 2,
+    "Apellido y Nombre": [
+      "AGUERRE, CLAUDIO",
+      "GUNTHER, DANIEL"
+    ],
+    "Identificación": {
+      "SEXO": "",
+      "HORARIO": "",
+      "CATEGORIA": "",
+      "F.ING.TRAB.": "",
+      "F.ING.LIBRO": ""
+    }
+  },
+  "Detalle": {
+    "Verificación": {
+      "1": "Presenta libretas de choferes conforme ART. 1 Dto 1335/73 (modif por Dto 1038/97) y res. MTSS N°17/98 rubricadas porINDUSTRIA Y COMERCIO. Personal Afectado: 2",
+      "2": "Cumple con el descanso entre jornadas de 12 (doce) horas conforme Art.197 Ley 20744. Personal Afectado: 2",
+      "3": "Cumple con la jornada legal de trabajo, conforme Art1 Ley 11544 y Dto Reg 16115/33. Personal Afectado: 2",
+      "4": "Cumple con el goce de franco conforme Art 9 inc g del CCT 460/73. Personal Afectado: 2"
+    },
+    "Infracción": {
+      "1": "No presenta libretas de choferes conforme ART. 1 Dto 1335/73 (modif por Dto 1038/97) y res. MTSS N°17/98 rubricadas porDE LA LIBRETA DEL CHOFER AGUERRE CLAUDIO 21964193 SURGE QUE EL DIA 4/5/2024SE ENCUEÑTRA BORRADO SIN SALVAR COMO CORRESPONDE Y EL DIA 8/7/2024 DE LA LIBRETA DEL CHOFER GUNTHER DANIEL 18263965 SE ENCUEÑTRA BORRADO SIN SALVAR COMO CORRESPONDE. Personal Afectado: 2"
+    }
+  }
+}
+```
